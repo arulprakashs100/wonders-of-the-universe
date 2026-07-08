@@ -1,0 +1,17 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependencies and Build Outputs
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/*.local
+
+# System/IDE files
+.vscode/
+.idea/
+.DS_Store
+*.suo
+*.sw?
