@@ -60,7 +60,8 @@ export default function Footer({ setCurrentPage }) {
         <div className="footer-links-group">
           <h4 className="footer-header font-display">Celestial Bodies</h4>
           <ul className="footer-links-list">
-            <li><button onClick={() => handleLinkClick("planets")}>Solar System</button></li>
+            <li><button onClick={() => handleLinkClick("solarsystem")}>Solar System</button></li>
+            <li><button onClick={() => handleLinkClick("planets")}>Planets Catalog</button></li>
             <li><button onClick={() => handleLinkClick("galaxies")}>Galaxies</button></li>
             <li><button onClick={() => handleLinkClick("stars")}>Stars</button></li>
             <li><button onClick={() => handleLinkClick("moons")}>Moons</button></li>
